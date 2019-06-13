@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BLEACHER SOCCER</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_detail">Detail</string>
+    <string name="nav_score">Score</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

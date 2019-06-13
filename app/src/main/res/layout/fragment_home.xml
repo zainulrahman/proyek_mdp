@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAll"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:lineSpacingExtra="10sp"
+                android:text="All"
+                android:textColor="#000000"
+                android:theme="@style/button_menu"
+                tools:text="All" />
+            <Button
+                android:id="@+id/btnShowbiz"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:lineSpacingExtra="10sp"
+                android:text="SHOWBIZ"
+                android:textColor="#000000"
+                android:theme="@style/button_menu"
+                tools:text="SHOWBIZ" />
+
+
+            <Button
+                android:id="@+id/btnBisnis"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:lineSpacingExtra="10sp"
+                android:text="BISNIS"
+                android:textColor="#000000"
+                android:theme="@style/button_menu"
+                tools:text="BISNIS" />
+
+            <Button
+                android:id="@+id/btnBola"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="BOLA"
+                android:theme="@style/button_menu"
+                tools:text="BOLA" />
+
+            <Button
+                android:id="@+id/btnTekno"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="TEKNO"
+                android:theme="@style/button_menu"
+                tools:text="TEKNO" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rview_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+    </android.support.v7.widget.RecyclerView>
+</android.support.constraint.ConstraintLayout>

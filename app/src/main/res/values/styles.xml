@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="button_color" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#0645AD</item>
+        <item name="colorButtonNormal">#00000000</item>
+    </style>
+
+    <style name="button_register" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="colorButtonNormal">#0EB3CA</item>
+    </style>
+
+    <style name="button_menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#0A0606</item>
+        <item name="colorButtonNormal">@color/white</item>
+    </style>
+
+    <style name="button_logout" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorButtonNormal">#e96245</item>
+    </style>
+    <style name="button_save" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorButtonNormal">#88d969</item>
+    </style>
+</resources>
